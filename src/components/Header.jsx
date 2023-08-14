@@ -31,12 +31,12 @@ function Header() {
         <div className="wrapper flex justify-between items-center h-screen w-full px-20 lg:justify-center lg:px-6">
           <div className="content lg:text-center">
             <div className="btn py-3">
-              <button className=" border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-4 rounded-2xl">
+              <button className=" border-2 border-[#b0aaaa] font-bold text-white bg-[linear-gradient(90deg,#b004b0,#38097a)] p-4 lg:mb-[5rem] rounded-2xl">
                 Welcome to my Portfolio
               </button>
             </div>
-            <h1 className="text-white lg:text-4xl text-5xl font-bold pt-[0.2rem]">
-              Hi! I'm Tommy
+            <div className="text-white lg:text-4xl text-5xl font-bold pt-[0.2rem]">
+              <h1 className="mb-[1rem]">Hi! I'm Tommy</h1>
               <Flicking className="lg:text-[1.5rem] lg:h-[1.5rem] text-[2.3rem] h-[2.3rem] pb-[0.1rem] text-fuchsia-500 overflow-hidden" {...flickingOptions}>
                 <div>Full Stack Developer 💻</div>
                 <div>Teaching Assistant 👨‍🏫</div>
@@ -47,7 +47,7 @@ function Header() {
                 <div>Dedicated 🏃‍♂️</div>
                 <div>Located Surrey, B.C 🏔️</div>
               </Flicking>
-            </h1>
+            </div>
             <p className="text-white py-4 max-w-lg ">
               Full stack developer BrainStation alumni 🎓, trying to make a
               transition to the tech industry. Feedback fuels my growth , and

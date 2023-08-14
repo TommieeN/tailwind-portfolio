@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "../styles.css";
-import Logo from "../assets/images/logo.webp"
+import Logo from "../assets/images/my-photo.jpg"
 
 function Navbar() {
   const [durum, setDurum] = useState(true);
@@ -26,7 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <AnchorLink href="#home"><img className="w-[5rem]" src={Logo} alt="logo-tommy" /></AnchorLink>
+        <AnchorLink href="#home"><img className="lg:w-[3.5rem] w-[5rem] rounded-full" src={Logo} alt="logo-tommy" /></AnchorLink>
         <nav
           className={` flex justify-center items-center gap-x-10 ${
             durum && "lg:hidden"
