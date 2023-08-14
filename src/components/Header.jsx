@@ -35,9 +35,9 @@ function Header() {
                 Welcome to my Portfolio
               </button>
             </div>
-            <h1 className="text-white text-5xl font-bold pt-[0.2rem]">
+            <h1 className="text-white lg:text-4xl text-5xl font-bold pt-[0.2rem]">
               Hi! I'm Tommy
-              <Flicking className="text-[2.3rem] h-[2.3rem] pb-[0.1rem] text-fuchsia-500 overflow-hidden" {...flickingOptions}>
+              <Flicking className="lg:text-[1.5rem] lg:h-[1.5rem] text-[2.3rem] h-[2.3rem] pb-[0.1rem] text-fuchsia-500 overflow-hidden" {...flickingOptions}>
                 <div>Full Stack Developer 💻</div>
                 <div>Teaching Assistant 👨‍🏫</div>
                 <div>Vietnamese 🇻🇳</div>
