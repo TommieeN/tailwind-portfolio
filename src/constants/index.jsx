@@ -3,7 +3,7 @@ import journey from "../assets/images/projects/journey.png"
 import bandsite from "../assets/images/projects/bandsite.png"
 import brainflix from "../assets/images/projects/Brainflix.png"
 import flags from "../assets/images/projects/flags.png"
-// import inStock from "../assets/images/projects/inStock.gif"
+import inStock from "../assets/images/projects/inStock.jpg"
 
 // Tech Stack Icons
 import css from "../assets/images/techIcons/css.svg"
@@ -16,19 +16,6 @@ import react from "../assets/images/techIcons/react.svg"
 import tailwind from "../assets/images/techIcons/tailwind.svg"
 import sass from "../assets/images/techIcons/sass.svg"
 import typescript from "../assets/images/techIcons/typescript.svg"
-
-const icons = {
-  css,
-  git,
-  html,
-  javascript,
-  mysql,
-  node,
-  react,
-  tailwind,
-  sass,
-  typescript
-}
 
 const techIcons = [
   {
@@ -100,6 +87,13 @@ const projects = [
       deploy: "https://brainflix.onrender.com/",
     },
     {
+      id: 5,
+      title: "In-Stock",
+      description: "A collaborative project utilizing agile methodologies to create a full stack application.",
+      img: inStock,
+      link: "https://github.com/TommieeN/instock-client",
+    },
+    {
       id: 4,
       title: "Flags",
       description: "A list of flags from around the world.",
@@ -107,13 +101,6 @@ const projects = [
       link: "https://github.com/TommieeN/country-flags-api",
       deploy: "https://client-flags.onrender.com/"
     },
-    // {
-    //   id: 5,
-    //   title: "In-Stock",
-    //   description: "A collaborative project utilizing agile methodologies to create a full stack application.",
-    //   img: inStock,
-    //   link: "https://github.com/TommieeN/instock-client",
-    // },
   ];
 
   export { projects, techIcons }

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import "../styles.css";
+import Logo from "../assets/images/logo.webp"
 
 function Navbar() {
   const [durum, setDurum] = useState(true);
-  console.log(durum);
 
   window.onscroll = function () {
     scrollFunction();
@@ -26,8 +26,7 @@ function Navbar() {
   return (
     <>
       <div className="navbarcon flex justify-between items-center px-20 py-6 bg-transparent z-40 text-white lg:px-6 fixed w-full">
-        <h1 className="text-4xl  font-bold ">Reayhs</h1>
-
+        <AnchorLink href="#home"><img className="w-[5rem]" src={Logo} alt="logo-tommy" /></AnchorLink>
         <nav
           className={` flex justify-center items-center gap-x-10 ${
             durum && "lg:hidden"
@@ -46,24 +45,30 @@ function Navbar() {
           </ul>
 
           <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <a href="https://twitter.com/reayhs" target="_blank">
-              <i className="fa-brands fa-twitter border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            <a href="https://www.linkedin.com/in/tommy-nguyenn" target="_blank">
+              <i className="fa-brands fa-linkedin-in border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
 
-            <a href="https://www.instagram.com/iburakz/" target="_blank">
+            <a href="https://www.instagram.com/tiimmytimmy" target="_blank">
               <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
             <a
-              href="https://github.com/Reayhs/react-tailwind-portfolio"
+              href="https://github.com/TommieeN"
               target="_blank"
             >
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
+            <a
+              href="https://drive.google.com/file/d/1juta5yilnsAGWpyeo0jGFg7ZUDlaocA_/view"
+              target="_blank"
+            >
+              <i className="fa-solid fa-clipboard-user border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            </a>
           </div>
           <div className="btn">
-            <button className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
+            <AnchorLink href="#contact" className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
               Let's Connect
-            </button>
+            </AnchorLink>
           </div>
         </nav>
         <i
