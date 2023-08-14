@@ -116,7 +116,7 @@ function Contact() {
             <img className="w-[550px] h-full" src={img} alt="" />
           </div>
           <div className="content-box">
-            <h1 className="text-white font-bold text-4xl">Get In Touch</h1>
+            <h1 id="contact" className="text-white font-bold text-4xl">Get In Touch</h1>
             <form
               ref={formRef}
               onSubmit={handleSubmit}

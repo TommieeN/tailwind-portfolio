@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@egjs/flicking-plugins": "^4.7.1",
+    "@egjs/react-flicking": "^4.11.0",
     "@emailjs/browser": "^3.11.0",
     "axios": "^1.2.5",
     "bootstrap": "^5.2.3",
