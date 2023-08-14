@@ -1,8 +1,78 @@
+// Project Thumbnails
 import journey from "../assets/images/projects/journey.png"
 import bandsite from "../assets/images/projects/bandsite.png"
 import brainflix from "../assets/images/projects/Brainflix.png"
 import flags from "../assets/images/projects/flags.png"
 // import inStock from "../assets/images/projects/inStock.gif"
+
+// Tech Stack Icons
+import css from "../assets/images/techIcons/css.svg"
+import git from "../assets/images/techIcons/git.svg"
+import html from "../assets/images/techIcons/html.svg"
+import javascript from "../assets/images/techIcons/javascript.svg"
+import mysql from "../assets/images/techIcons/mysql.svg"
+import node from "../assets/images/techIcons/node.svg"
+import react from "../assets/images/techIcons/react.svg"
+import tailwind from "../assets/images/techIcons/tailwind.svg"
+import sass from "../assets/images/techIcons/sass.svg"
+import typescript from "../assets/images/techIcons/typescript.svg"
+
+const icons = {
+  css,
+  git,
+  html,
+  javascript,
+  mysql,
+  node,
+  react,
+  tailwind,
+  sass,
+  typescript
+}
+
+const techIcons = [
+  {
+    title: "React",
+    img: react
+  },
+  {
+    title: "TypeScript",
+    img: typescript
+  },
+  {
+    title: "Javascript",
+    img: javascript
+  },
+  {
+    title: "TailwindCSS",
+    img: tailwind
+  },
+  {
+    title: "mySQL",
+    img: mysql
+  },
+  {
+    title: "Node",
+    img: node
+  },
+  {
+    title: "Sass",
+    img: sass
+  },
+
+  {
+    title: "CSS",
+    img: css
+  },
+  {
+    title: "Git",
+    img: git
+  },
+  {
+    title: "Html",
+    img: html
+  },
+]
 
 const projects = [
     {
@@ -46,4 +116,4 @@ const projects = [
     // },
   ];
 
-  export { projects }
+  export { projects, techIcons }
