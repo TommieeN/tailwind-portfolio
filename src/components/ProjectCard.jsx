@@ -4,7 +4,7 @@ function ProjectCard({ item }) {
   return (
     <>
       <div className="img-box w-[450px] lg2:w-auto h-[14.5rem] mx-auto flex justify-center items-center relative overflow-hidden rounded-3xl">
-        <img src={item.img} alt="project-thumbnail" className="w-full" />
+        <img src={item.img} alt="project-thumbnail" className="w-full h-[35vh]" />
         <div className="p absolute top-[-100%] left-0 h-full w-full text-center bg-[#b004b0b7] p-4 pt-[3rem]">
           <h1 className="font-bold text-3xl">{item.title}</h1>
           <p className="font-bold">{item.description}</p>
@@ -21,7 +21,7 @@ function ProjectCard({ item }) {
               href={item.deploy}
               target="_blank"
             >
-              Deployment
+              Deploy
             </a>
           </div>
         </div>

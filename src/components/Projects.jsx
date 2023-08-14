@@ -14,7 +14,7 @@ function Projects() {
           because I am using the free version of render the data for the back
           ends of my projects take a minute or two to start.
         </p>
-        <div className="grid grid-cols-3 p-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
+        <div className="grid grid-cols-3 py-10 justify-center items-center gap-8 lg:grid-cols-2 tl:grid-cols-1  ">
           {projects.map((item, i) => <ProjectCard key={i} item={item} />)}
         </div>
       </div>

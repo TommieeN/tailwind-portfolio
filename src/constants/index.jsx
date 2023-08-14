@@ -3,7 +3,7 @@ import journey from "../assets/images/projects/journey.png"
 import bandsite from "../assets/images/projects/bandsite.png"
 import brainflix from "../assets/images/projects/Brainflix.png"
 import flags from "../assets/images/projects/flags.png"
-import inStock from "../assets/images/projects/inStock.jpg"
+import inStock from "../assets/images/projects/inStock.png"
 
 // Tech Stack Icons
 import css from "../assets/images/techIcons/css.svg"
