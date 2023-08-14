@@ -110,13 +110,15 @@ function Contact() {
   };
   return (
     <>
-      <div className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full">
+      <div className="contact bg-[linear-gradient(90deg,#b004b0,#38097a);] w-full lg:p-[1rem]">
         <div className="wrapper flex justify-center  py-16 gap-52 lg:py-12">
           <div className="imgbox lg:hidden">
             <img className="w-[550px] h-full" src={img} alt="" />
           </div>
           <div className="content-box">
-            <h1 id="contact" className="text-white font-bold text-4xl">Get In Touch</h1>
+            <h1 id="contact" className="text-white font-bold text-4xl">
+              Get In Touch
+            </h1>
             <form
               ref={formRef}
               onSubmit={handleSubmit}
@@ -149,21 +151,25 @@ function Contact() {
                 onChange={handleChange}
                 placeholder="Message"
               ></textarea>
-              <button onClick={errorToast} type="submit" className="bg-white border-black border-[1] mt-4 py-[16px] rounded-lg px-8 my-8 w-32 font-bold ">
-              {loading ? "Sending..." : "Send"}
+              <button
+                onClick={errorToast}
+                type="submit"
+                className="bg-white border-black border-[1] mt-4 py-[16px] rounded-lg px-8 my-8 w-32 font-bold "
+              >
+                {loading ? "Sending..." : "Send"}
               </button>
               <ToastContainer
-          position="top-center"
-          autoClose={5000}
-          hideProgressBar={false}
-          newestOnTop={false}
-          closeOnClick
-          rtl={false}
-          pauseOnFocusLoss
-          draggable
-          pauseOnHover
-          theme="dark"
-        />
+                position="top-center"
+                autoClose={5000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+                theme="dark"
+              />
             </form>
           </div>
         </div>
