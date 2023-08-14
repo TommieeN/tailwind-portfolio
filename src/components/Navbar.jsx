@@ -43,29 +43,7 @@ function Navbar() {
               <AnchorLink href="#projects">Projects</AnchorLink>
             </li>
           </ul>
-
-          <div className="icon text-lg flex gap-4  lg:gap-8 lg:my-10">
-            <a href="https://www.linkedin.com/in/tommy-nguyenn" target="_blank">
-              <i className="fa-brands fa-linkedin-in border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-
-            <a href="https://www.instagram.com/tiimmytimmy" target="_blank">
-              <i className="fa-brands fa-instagram border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-            <a
-              href="https://github.com/TommieeN"
-              target="_blank"
-            >
-              <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1juta5yilnsAGWpyeo0jGFg7ZUDlaocA_/view"
-              target="_blank"
-            >
-              <i className="fa-solid fa-clipboard-user border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
-            </a>
-          </div>
-          <div className="btn">
+          <div className="btn lg:mt-[2rem] lg:ml-[0.5rem]">
             <AnchorLink href="#contact" className="border-[1px] border-white border-solid py-2 px-4 hover:bg-white hover:text-black font-bold">
               Let's Connect
             </AnchorLink>

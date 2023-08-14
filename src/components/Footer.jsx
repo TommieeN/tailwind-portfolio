@@ -16,6 +16,12 @@ function Footer() {
             <a href="https://github.com/TommieeN" target="_blank">
               <i className="fa-brands fa-github border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
             </a>
+            <a
+              href="https://drive.google.com/file/d/1juta5yilnsAGWpyeo0jGFg7ZUDlaocA_/view"
+              target="_blank"
+            >
+              <i className="fa-solid fa-clipboard-user border-[1px] border-white p-2 rounded-[100%] hover:bg-white hover:text-black"></i>
+            </a>
           </div>
         </div>
       </div>
