@@ -4,6 +4,7 @@ import bandsite from "../assets/images/projects/bandsite.png"
 import brainflix from "../assets/images/projects/Brainflix.png"
 import flags from "../assets/images/projects/flags.png"
 import inStock from "../assets/images/projects/inStock.png"
+import rockPaperScissors from "../assets/images/projects/rockPaperScissors.png"
 
 // Tech Stack Icons
 import css from "../assets/images/techIcons/css.svg"
@@ -100,6 +101,14 @@ const projects = [
       img: flags,
       link: "https://github.com/TommieeN/country-flags-api",
       deploy: "https://client-flags.onrender.com/"
+    },
+    {
+      id: 5,
+      title: "Rock Paper Scissors!",
+      description: "Play a game of rock paper scissors",
+      img: rockPaperScissors,
+      link: "https://github.com/TommieeN/rock-paper-scissors/tree/main",
+      deploy: "https://rock-paper-scissors-tommy.netlify.app/"
     },
   ];
 
