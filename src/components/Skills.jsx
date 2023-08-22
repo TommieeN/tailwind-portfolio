@@ -21,7 +21,7 @@ function Skills() {
           <p className="text-lg py-3">
             My current TechStack, learning more as the days go by.
           </p>
-          <div className="box flex  justify-between  items-center bg-[#171717] my-6">
+          <div className="box flex justify-between items-center bg-[#171717] my-6">
             <Swiper
               slidesPerView={1}
               spaceBetween={0}
