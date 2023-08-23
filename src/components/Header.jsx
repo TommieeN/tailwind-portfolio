@@ -32,7 +32,7 @@ function Header() {
             <div 
             style={{
               background:
-                "linear-gradient(90deg, rgba(176, 4, 176, 0.2), rgba(56, 9, 122, 0.5))",
+                "linear-gradient(90deg, rgba(176, 4, 176, 0.4), rgba(56, 9, 122, 0.8))",
               backdropFilter: "blur(10px)",
             }}
             className="rounded-[0.5rem] lg:mt-[2rem] text-white lg:text-4xl text-5xl font-bold pt-[0.2rem] lg:ml-[0.5rem] mb-[4rem] pb-[0.5rem]">
@@ -55,7 +55,7 @@ function Header() {
               className="mt-[1rem] mb-[4rem] text-white lg:py-[0rem] py-4 max-w-lg rounded-[1rem]"
               style={{
                 background:
-                  "linear-gradient(90deg, rgba(176, 4, 176, 0.2), rgba(56, 9, 122, 0.5))",
+                  "linear-gradient(90deg, rgba(176, 4, 176, 0.6), rgba(56, 9, 122, 0.8))",
                 backdropFilter: "blur(10px)",
               }}
             >
@@ -80,14 +80,9 @@ function Header() {
             <AnchorLink
               href="#contact"
               className="pulse lg:mt-[1rem] text-white text-2xl rounded-lg px-[1rem] py-[0.5rem] mt-[1rem]"
-              style={{
-                background:
-                  "linear-gradient(90deg, rgba(176, 4, 176, 0.2), rgba(56, 9, 122, 0.5))",
-                backdropFilter: "blur(10px)",
-              }}
             >
               Let's Connect{" "}
-              <i className="fa-solid fa-arrow-right text-lg  p-[2px] "></i>{" "}
+              <i className="fa-solid fa-arrow-right text-lg  p-[2px]"></i>{" "}
             </AnchorLink>
           </div>
           <div className="image banner-astronout lg:hidden absolute w-[300px] flex ">

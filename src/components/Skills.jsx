@@ -30,13 +30,14 @@ function Skills() {
               }}
               navigation={true}
               modules={[Navigation, Pagination]}
+              loop={true}
               breakpoints={{
                 480: {
                   slidesPerView: 2,
                   spaceBetween: 0,
                 },
                 768: {
-                  slidesPerView: 3,
+                  slidesPerView: 4,
                   spaceBetween: 40,
                 },
               }}
@@ -48,7 +49,7 @@ function Skills() {
                     <SwiperSlide key={icon.title} className="bg-[#171717]">
                       {" "}
                       <div className="lg:flex lg:items-center lg:flex-col bg-[#171717]">
-                        <img className="w-[8rem] lg:w-[4rem]" src={icon.img} alt="tech-stack-icon" />
+                        <img className="object-fit w-[8rem] lg:w-[4rem]" src={icon.img} alt="tech-stack-icon" />
                         <p className="font-bold text-2xl my-2">
                           {icon.title}
                         </p>

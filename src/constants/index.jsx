@@ -44,21 +44,20 @@ const techIcons = [
     img: node
   },
   {
-    title: "Sass",
-    img: sass
+    title: "Html",
+    img: html
   },
-
   {
     title: "CSS",
     img: css
   },
   {
-    title: "Git",
-    img: git
+    title: "Sass",
+    img: sass
   },
   {
-    title: "Html",
-    img: html
+    title: "Git",
+    img: git
   },
 ]
 
